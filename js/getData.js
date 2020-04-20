@@ -82,6 +82,8 @@ function html_code(id,category,records){
 
 function search(category) {
   document.getElementById("box-content").innerHTML ="";
+  document.getElementById("title").innerHTML = category
+  document.getElementById("page").innerHTML = category
 
   this.list_data = new Array();
 
