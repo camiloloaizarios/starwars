@@ -116,6 +116,14 @@
     <script src="js/fetchPaginate.js"></script>
     <script src="js/getData.js"></script>
 
+    <script>
+        $( document ).ready(function () {
+            if(window.location.hash){
+                search(window.location.hash.split("#")[1]);
+            }
+        });
+    </script>
+
 </body>
 
 </html>
